@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="products.css">
     <link rel="stylesheet" href="shadow.css">
-    <link rel="stylesheet" href="index.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
                 <li><a href="index.html">HOME</a></li>
                 <div class="dropdown">
                     <li><a class="prodlist" onclick="drop()" href="#">PRODUCTS</a></li>
-                    <div class="dropdown-menu shadow-dreamy" id="mydropdown">
+                    <div class="dropdown-menu" id="mydropdown">
                         <a href="#">Soaps</a>
                         <a href="#">Hair Care</a>
                         <a href="#">Skin Care</a>
@@ -27,26 +28,25 @@
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
-    </header> 
+    </header>  
     <main>
-        <section class="presentation">
-            <div class="intro">
-                <div class="introtext">
-                    <h1>Lavender Soap</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis atque at reiciendis sit eos vero eveniet architecto quia debitis hic.
-                    </p>
-                </div>
-                <div class="buttons">
-                    <button id="buttonone">SHOP NOW</button>
-                    <button id="buttontwo">VIEW PRODUCT</button>
-                </div>
+        <section></section>
+        <aside class="shadow-dreamy">
+            <div id="prod">
+            <div>Products</div>
+            <div class="list">
+                <ul>
+                    <li>Soaps</li>
+                    <li>Hair Care</li>
+                    <li>Skin Care</li>
+                    <li>Body Care</li>
+                </ul>
             </div>
-            <div class="showcase">
-                <img src="handmadesoap.jpg">
             </div>
-        </section>
+        </aside>
+
     </main>
     <script src="app.js"></script>
 </body>
+
 </html>

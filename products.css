@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    font-family: 'Sen';
+    margin:0;
+    box-sizing: border-box;
+}
+main{
+    position:relative;
+    top:70px;
+    display: grid;
+    grid-gap:2px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100px,auto);
+    width:100%;
+    margin:0 auto;
+}
+section{
+    grid-column: 3/13;
+    grid-row: 1/10;
+}
+aside{
+    grid-column: 1/3;
+    grid-row: 1/10;
+}
+#prod{ 
+    font-family: 'Roboto', sans-serif;
+    color: #84848d;
+    font-size: 1.5em;
+    padding: 20px;
+    margin:5px;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+*{
+    font-family:'Sen' ;
+    margin:0;
+    box-sizing: border-box;
+}
+
+main{
+    background: url(soap.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 960px;
+}
+img{
+    width: 100%;
+}
+.presentation{
+    display: flex;
+    padding:50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.presentation div{
+    flex:1;
+}
+button{
+    border: 3px solid rgb(186, 78, 201);
+    background: none;
+    padding:10px;
+    color: #fff;
+}
+.showcase{
+    padding:20px;
+    background-color: #fff;
+}
+.buttons{
+    margin-top:20px;
+}
+#buttonone{
+    background:rgb(186, 78, 201) ;
+    color:#fff;
+    border:3px solid rgb(186, 78, 201);
+    margin-right: 35px;
+}
+#buttontwo:hover{
+    background-color: rgb(186, 78, 201) ;
+}
